@@ -67,3 +67,64 @@ nav a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
+#container {
+  clear: both;
+  padding-top: 160px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.search-bar {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+  transition: box-shadow 0.25s ease-in-out;
+  width: 600px;
+  height: 45px;
+  border: 1px solid #1112;
+  border-radius: 2px;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+.search-bar:hover {
+  box-shadow: 1px 1px 5px rgba(0,0,0,.25);
+}
+
+.search-button {
+  background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+  -moz-border-radius: 2px;
+  -moz-user-select: none;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  height: 36px;
+  line-height: 27px;
+  margin-top: 30px;
+}
+
+
+.search-button:hover {
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
+
+.change-language {
+  font-size: small;
+}
+
+.change-language a {
+  text-decoration: none;
+}
